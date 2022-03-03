@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregas CSS a HTML -->
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <nav>
             <div>
-                <img src="header-logo-transparent.png">
+                <a href="https://app.schoology.com/home" target="_blank">
+                    <img class="logo" src="img/logo.png">
+                </a>
             </div>
-    </nav>
+        </nav>
     </header>
-    <main>
+    <main class="main-page">
         <section>
-            <div>
-                <div>
-                    <span>Sign in to Schoology</span>
-                </div>
-                <div>
-                    <span>Back</span>
-                </div>    
+            <div class="title-form"> 
+                <span>Sign in to Schoology</span>
+                <a href="https://app.schoology.com/register.php" target="_blank">Back</a>    
             </div>
-            <div>
-                    <input type="text" name="code" placeholder="Access Code" aria-label="Access Code" />
-                    <div 
-                        class="description">Enter the access code provided by your instructor
-                    </div>
+            <div class="text-area">
+                <input type="text" name="code" placeholder="Access Code">
             </div>
-            <div>
+            <div class="description">
+                <span> Enter the access code provided by your instructor</span>
+            </div>
+            <div class="buttom">
                 <input type="submit" name="op" value="Continue" />
             </div>
         </section>
     </main>
     <footer>
-        Schoology &copy; 2022
-        <a href="https://www.powerschool.com/privacy" >Privacy Policy</a>
-        <a href="https://www.schoology.com/terms-of-use" >Terms of Use</a>
-        <a href="https://support.schoology.com/hc/en-us" >Help Center</a>
+        <span>Schoology &copy; 2022</span>
+        <span> · </span>
+        <a href="https://www.powerschool.com/privacy" class="privacy">PRIVACY POLICY</a>
+        <span> · </span>
+        <a href="https://www.schoology.com/terms-of-use">Terms of Use</a>
+        <span> · </span>
+        <a href="https://support.schoology.com/hc/en-us">Help Center</a>
     </footer>   
 </body>
 </html>
