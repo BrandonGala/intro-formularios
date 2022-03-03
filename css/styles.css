@@ -90,7 +90,7 @@ section{
 }
 
 .buttom input{
-    background-color: #3EA1C1;
+    background-color: #4fb2d3;
     border: 0px solid #DBDBDB;
     color: #EEEEEE;
     font-family: 'Open Sans', sans-serif;
@@ -98,6 +98,11 @@ section{
     font-size: 16px;
     width: 323px;
     padding: 9px;
+}
+
+.buttom input:hover{
+    background-color: #3EA1C1;
+    cursor: pointer;
 }
 
 footer{
